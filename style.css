@@ -31,7 +31,7 @@ body {
 .first-section {
     display: flex;
     align-items: center;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 30px;
     background-color: #C6E4D6;
     align-items: center;
@@ -54,17 +54,19 @@ body {
 }
 
 .btn1 {
-    font-size: 18;
+    font-size: 19px;
     border-radius: 8px;
     color: white;
     padding: 17px 34px;
     background-color: #006A50;
     margin-top: 0px;
+    font-weight: bold;
+    border: none;
 }
 
 .container {
     width: 1200px;
-    margin: 0px auto;
+    margin: 50px auto;
     /* padding: 20px; */
 
 
@@ -106,6 +108,7 @@ body {
     color: white;
     padding: 11px 22px;
     margin-top: 0px;
+    border: none;
 }
 
 .button2 {
@@ -118,4 +121,85 @@ body {
 }
 .button4 {
     background-color: #FFC239;
+}
+
+.img-time {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.boxnews {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    background-color: rgb(240, 239, 239);
+    border-radius: 24px;
+    margin: 30px 0px;
+
+
+}
+#news {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.img1 {
+    border-radius: 24px;
+}
+#news > h1 {
+    font-size: 40px;
+}
+
+section p ,time {
+    color: #808080;
+}
+
+.box-h1 {
+    color: #0E0E0E;
+    margin-bottom: 5px;
+}
+
+.donate-box h1 {
+    font-size: 40px;
+
+}
+
+.taka-box {
+    width: 240px;
+    height: 128px;
+    background-color: rgb(240, 239, 239);
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.box-list {
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+
+.donate {
+    width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.text {
+    width: 1200px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(240, 239, 239);
+    border: none;
+    margin: 0px 0px 20px 0px;
+}
+
+.box-color {
+    background-color: #C6E4D6;
 }

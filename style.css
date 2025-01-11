@@ -259,7 +259,7 @@ button:hover{
 }
 
 .card:hover{
-    background-color: rgb(153, 138, 138);
+    background-color: rgb(178, 212, 177);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }

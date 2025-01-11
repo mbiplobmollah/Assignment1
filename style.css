@@ -9,6 +9,10 @@ section p ,time {
     color: #808080;
 }
 
+section p {
+    font-size: 18px;
+}
+
 .nav{
 
     display: flex;
@@ -204,4 +208,49 @@ section p ,time {
 
 .box-color {
     background-color: #C6E4D6;
+}
+
+#newsletter {
+    background-color: #C6E4D6;
+    width: 1200px;
+    height: 400px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.email-field {
+    display: flex;
+    width: 600px;
+    overflow: hidden; 
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.efield {
+    border: none;
+    padding: 17px 34px;
+    font-size: 19px;
+    border-radius: 8px 0 0 8px;
+    width: 1000px;
+}
+
+.ebtn{
+    font-size: 19px;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    padding: 17px 34px;
+    background-color: #006A50;
+    margin-top: 0px;
+    font-weight: bold;
+    border: none;
+}
+
+#newsletter h1 {
+    font-size: 40px;
 }

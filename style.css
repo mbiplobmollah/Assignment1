@@ -257,3 +257,16 @@ section p {
 button:hover{
     background-color: gray;
 }
+
+.card:hover{
+    background-color: rgb(153, 138, 138);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.box:hover{
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(360deg);
+}

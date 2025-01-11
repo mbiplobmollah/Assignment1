@@ -270,3 +270,21 @@ button:hover{
     transition: width 2s, height 2s, transform 2s;
     transform: rotate(360deg);
 }
+
+.dr-yunus{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 16px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* background-position-x: 25px ; */
+    background-position: 20px 10px;
+}
+
+.dr-yunus h3 {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #808080;
+}

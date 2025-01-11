@@ -287,4 +287,8 @@ button:hover{
     font-size: 20px;
     font-weight: 600px;
     color: #808080;
+    margin-bottom: 0px;
+}
+.sub-title {
+    margin-top: 5px;
 }
